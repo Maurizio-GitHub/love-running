@@ -1,3 +1,4 @@
+/* Main Rules*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
@@ -56,3 +57,31 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* Hero Image*/
+
+#hero-image-tuning {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/love-running-hero-image.webp') no-repeat center center;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
