@@ -15,7 +15,8 @@ body {
 
 /* Headers and Logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,7 +31,8 @@ h1, h2 {
 
 /* Navigation Links */
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -40,7 +42,7 @@ h1, h2 {
     float: right;
 }
 
-#menu > li {
+#menu>li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
@@ -87,7 +89,8 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-#cover-text, #cover-text > h2 {
+#cover-text,
+#cover-text>h2 {
     color: white;
 }
 
@@ -157,11 +160,11 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading > h2 {
+.right-about-heading>h2 {
     text-align: right;
 }
 
-.right-about-heading > p {
+.right-about-heading>p {
     text-align: right;
 }
 
@@ -180,4 +183,15 @@ hr {
     background: url('../images/ethos-club-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* Club Ethos Section */
+
+#times {
+    background-image: url('../images/times-background-image.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
