@@ -19,7 +19,7 @@ body {
 h1,
 h2 {
     color: #252525;
-    font-family: Oswald sans-serif;
+    font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -186,7 +186,7 @@ hr {
 /* Event Times */
 
 #times {
-    background: url('../images/times-background-image.webp') no repeat center/cover;
+    background: url('../images/times-background-image.webp') no-repeat center/cover;
     overflow: hidden;
     width: 100%;
 }
